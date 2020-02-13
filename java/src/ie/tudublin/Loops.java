@@ -64,7 +64,7 @@ public class Loops extends PApplet
 
 	public void draw()
 	{	
-		seventhExercise();
+		firstExercise();
 
 
 	}//end of draw
@@ -186,9 +186,23 @@ public class Loops extends PApplet
 	{
 
 		colorMode(HSB);
+		
+		int blue = 150;
+		int lightblue = 180;
+		int colour = blue;
+
 
 		for(int y = 0; y<=500; y+=25){
 		for (int x = 0; x <= 500; x+=25){
+
+			if(colour == blue){
+				fill(colour, 300, 300);
+				colour = lightblue;
+			}
+			else if(colour == lightblue){
+				fill(colour, 300, 300);
+				colour = blue;
+			}
 
 			rect(x, y, 25,25);
 
