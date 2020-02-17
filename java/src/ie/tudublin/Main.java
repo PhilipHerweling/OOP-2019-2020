@@ -35,11 +35,6 @@ public class Main
         // This is not polymorphism
         Cat topcat = new Cat("Topcat");
 
-<<<<<<< HEAD
-        Main main = new Main();
-		//main.airSeaBattle();
-        main.loops();
-=======
         // This is polymorphism!
         Animal mino = new Cat("Mino");
         // A vitual method!
@@ -75,6 +70,5 @@ public class Main
     {
         Main main = new Main();
 		main.loops();        
->>>>>>> 8f0bb789dfdaf47f8a4e396dbaa9d71e7a1127d7
     }
 }
