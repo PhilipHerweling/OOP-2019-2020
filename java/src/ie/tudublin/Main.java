@@ -109,10 +109,7 @@ public class Main
     public static void main(String[] arg)
     {
         Main main = new Main();
-<<<<<<< HEAD
-        main.sound2();        
-=======
-		main.starMap();        
->>>>>>> 10449debb2cc89acc74fc7f92757175469b0cca5
+        main.starMap(); 
+               
     }
 }
