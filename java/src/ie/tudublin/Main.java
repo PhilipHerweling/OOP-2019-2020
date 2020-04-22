@@ -13,6 +13,11 @@ public class Main
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new StarMap());
     }
+    public void starMapLabTest()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new StarMapLabTest());
+    }
     public void helloArrays()
 	{
 		String[] a = {"MAIN"};
@@ -109,7 +114,7 @@ public class Main
     public static void main(String[] arg)
     {
         Main main = new Main();
-        main.starMap(); 
+        main.starMapLabTest(); 
                
     }
 }

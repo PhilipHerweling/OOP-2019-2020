@@ -68,9 +68,9 @@ public class StarMap extends PApplet
         for(Star s:stars)
         {
             println(s);
-        }
     }
-
+    }
+    
     public void draw()
     {
         background(0);
